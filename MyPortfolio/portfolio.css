@@ -9,14 +9,14 @@ h1 {
   color: lavender;
 
   /*text-shadow: 4px 3px 3px rgba(255,250, 200, 1), -1px -1px 7px rgba(255, 250, 200, 1);*/
-  text-shadow: 4px 3px 3px rgba(30, 15,40, 1), -2px -3px 4px rgba(35,15,4,1);
+  text-shadow: 4px 3px 7px rgba(245, 230, 255, 1), -2px -3px 7px rgba(245,230, 255, 1);
   text-align: center;
 }
 
 h2 {
   font: 1.8em "Poor Richard", "Teen Light", sans-serif;
   color: rgb(30,15,40);
-  text-shadow: 3px 1px 2px rgba(250, 200, 255, 1), -2px -2px 2px rgba(250, 200, 255, 0.8);
+  text-shadow: 3px 1px 2px rgba(30, 15, 40, 1), -2px -2px 2px rgba(250, 200, 255, 1), -2px -2px 2px rgba(250, 200, 255, 0);
   padding-left: 10%;
 }
 
@@ -29,22 +29,24 @@ p {
 
 body {
   background-color: lightblue;
-  background-image: url("images/white opal.jpg");
+  background-image: url("images/lightlines.png");
   background-size: 100%;
   padding: 2%;
 }
 
 .base {
-  background-color: rgba(255,255,255, 0.5);
+  /*background-color: rgba(255,255,255, 0.5);*/
+  background-image: url("images/3-dcage.png");
+  background-size: 100% 100%;
   padding: 5%;
   border: 7px outset rgba(35,15,40,0.5);
 }
 
 .content-main {
   background-color: rgba(255,200,255, 0.5);
-  background-image: url("images/liquid ice.jpg");
+  background-image: url("images/rept_2.png");
   background-blend-mode: luminosity;
-  background-size: 100%;
+  background-size: 50%;
   /*background-repeat: (repeat-y)*-1;*/
   padding: 2%;
 }
@@ -52,17 +54,17 @@ body {
 ul {
   font: 1em "Poor Richard", "Aharoni", sans-serif;
   color: lavender;
-  text-shadow: 2px 2px 2px rgb(35,15,40), 2px 2px 2px rgb(35,15,40);
+  text-shadow: 2px 2px 2px rgb(245,230,255), 2px 2px 2px rgb(35,15,40);
   list-style-type:none;
   margin: 2%;
   padding 2%;
   overflow: hidden;
-  background-color: rgba(70,0,0,0.5);
+  background-color: rgba(60,5,20,0.5);
 }
 
 li{
   float: left;
-  padding: 4%;
+  padding: 0.4%;
 }
 
 li a{
@@ -76,22 +78,30 @@ li a{
 li a:hover{
   background-color: rgb(35,15,40);
 }
-@media only screen and (max-width: 508px){
+
+@media only screen and (max-width: 810px){
+
+  ul{
+  font-size: 1.0em;
+  }
 
 }
-@media only screen and (min-width: 769px) {
+
+@media only screen and (min-width: 769px){
   body{
     background-color: darkred;
-    background-image:url("images/darkgrey wood texture.jpg");
+    background-image:url("images/lines.png");
+    background-size: 100%;
   }
   .base {
-    background-image: url("images/lava texture.jpg")
+    background-image: url("images/lava3.png");
+    background-size: 50%;
     /*background-color: rgba(40, 2, 2, 0.5);*/
   }
   .content-main {
     /*background-image:url("images/old paper.jpg");*/
     background-color:rgba(250,250,140,0.5);
-    background-image:url("images/redtexture..jpg");
+    background-image:url("images/red-orangepattern2.png");
     background-size: 100%;
     background-blend-mode: normal;
   }
@@ -110,6 +120,9 @@ li a:hover{
   }
   p{
     color: white;
+    font-size: 1.2em;
+  }
+  ul{
     font-size: 1.2em;
   }
   li a:hover{
