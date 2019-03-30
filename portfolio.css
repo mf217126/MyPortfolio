@@ -29,14 +29,14 @@ p {
 
 body {
   background-color: lightblue;
-  background-image: url("images/lightlines.png");
+  background-image: url("../images/lightlines.png");
   background-size: 100%;
   padding: 2%;
 }
 
 .base {
   /*background-color: rgba(255,255,255, 0.5);*/
-  background-image: url("images/3-dcage.png");
+  background-image: url("../images/3-dcage.png");
   background-size: 100% 100%;
   padding: 5%;
   border: 7px outset rgba(35,15,40,0.5);
@@ -44,7 +44,7 @@ body {
 
 .content-main {
   background-color: rgba(255,200,255, 0.5);
-  background-image: url("images/rept_2.png");
+  background-image: url("../images/rept_2.png");
   background-blend-mode: luminosity;
   background-size: 50%;
   /*background-repeat: (repeat-y)*-1;*/
@@ -90,18 +90,18 @@ li a:hover{
 @media only screen and (min-width: 769px){
   body{
     background-color: darkred;
-    background-image:url("images/lines.png");
+    background-image:url("../images/lines.png");
     background-size: 100%;
   }
   .base {
-    background-image: url("images/lava3.png");
+    background-image: url("../images/lava3.png");
     background-size: 50%;
     /*background-color: rgba(40, 2, 2, 0.5);*/
   }
   .content-main {
     /*background-image:url("images/old paper.jpg");*/
     background-color:rgba(250,250,140,0.5);
-    background-image:url("images/red-orangepattern2.png");
+    background-image:url("../images/red-orangepattern2.png");
     background-size: 100%;
     background-blend-mode: normal;
   }
