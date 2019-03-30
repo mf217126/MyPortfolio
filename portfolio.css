@@ -36,7 +36,7 @@ body {
 
 .base {
   /*background-color: rgba(255,255,255, 0.5);*/
-  background-image: url("../images/3-dcage.png");
+  background-image: url("https://media.githubusercontent.com/media/mf217126/MyPortfolioRepository/master/images/3-dcage.png");
   background-size: 100% 100%;
   padding: 5%;
   border: 7px outset rgba(35,15,40,0.5);
@@ -44,7 +44,7 @@ body {
 
 .content-main {
   background-color: rgba(255,200,255, 0.5);
-  background-image: url("../images/rept_2.png");
+  background-image: url("https://media.githubusercontent.com/media/mf217126/MyPortfolioRepository/master/images/rept_2.png");
   background-blend-mode: luminosity;
   background-size: 50%;
   /*background-repeat: (repeat-y)*-1;*/
